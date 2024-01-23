@@ -4,6 +4,83 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kira McGlothen Hogwarts Homepage</title>
+    <style>
+      h1 {
+        color: #885df1;
+        font-size: 48px;
+        text-align: center;
+        font-weight: 100;
+        background-color: #cdc3d2;
+      }
+      body {
+        background: #f5f0fe;
+      }
+      h2 {
+        color: #272044;
+        text-align: center;
+        font-weight: 100;
+      }
+      .ravenclaw {
+        color: blue;
+      }
+      .hufflepuff {
+        color: red;
+      }
+      .slytherin {
+        color: green;
+      }
+      .gryffindor {
+        color: purple;
+      }
+      .contact-details {
+        font-size: 14px;
+        margin: 0;
+        text-align: center;
+      }
+      .contact {
+        color: #885df1;
+      }
+      .contact2 {
+        color: #885df1;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+      h3 {
+        text-align: center;
+      }
+      button {
+        padding: 15px 20px;
+        display: block;
+        margin: 0 auto;
+        background: transparent;
+        border: 3px solid rgb(132, 111, 132);
+        border-radius: 50px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: rgb(163, 135, 208);
+        color: rgb(246, 239, 246);
+        cursor: pointer;
+      }
+      ul {
+        text-align: center;
+        list-style-type: none;
+        padding: 0;
+      }
+      li {
+        display: inline;
+        margin: 0 15px;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
   </head>
   <body>
     <h1>Welcome to Hogwarts!</h1>
@@ -16,44 +93,55 @@
       width="300"
     />
     <ul>
-      <li>
+      <li class="ravenclaw">
         <a
           href="https://www.wizardingworld.com/fact-file/magical-miscellany/ravenclaw"
           target="_blank"
+          class="ravenclaw"
         >
           Ravenclaw
         </a>
       </li>
-      <li>
+      <li class="hufflepuff">
         <a
           href="https://www.wizardingworld.com/fact-file/magical-miscellany/hufflepuff"
           target="_blank"
+          class="hufflepuff"
         >
           Hufflepuff
         </a>
       </li>
-      <li>
+      <li class="slytherin">
         <a
           href="https://www.wizardingworld.com/fact-file/magical-miscellany/slytherin"
           target="_blank"
+          class="slytherin"
         >
           Slytherin
         </a>
       </li>
-      <li>
+      <li class="gryffindor">
         <a
           href="https://www.wizardingworld.com/fact-file/magical-miscellany/gryffindor"
           target="_blank"
+          class="gryffindor"
         >
           Gryffindor
         </a>
       </li>
     </ul>
     <hr />
-    <h3>
+    <button>
       <a href="https://www.wizardingworld.com/sorting-hat" target="_blank">
         Get sorted now!
       </a>
-    </h3>
+    </button>
+    <br />
+    <div class="contact-details">
+      <span class="contact">Email:</span>
+      hpotter934@owlmail.com
+      <span class="contact2"> Instagram:</span>
+      @i.am.a.wizard
+    </div>
   </body>
 </html>
